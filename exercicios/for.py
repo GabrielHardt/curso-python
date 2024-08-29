@@ -142,35 +142,35 @@
 # cobaia utilizada e o percentual de cada uma em relação ao total de cobaias utilizadas, sendo que o
 # percentual deve ser apresentado com dois dígitos após o ponto. 
 
-n = int(input("Quantos testes serao realizados? "))
-total = 0
-c = 0
-r = 0
-s = 0
+# n = int(input("Quantos testes serao realizados? "))
+# total = 0
+# c = 0
+# r = 0
+# s = 0
 
-for i in range(n):
-    quantidade = int(input("Qauntidade de cobaias: "))
-    tipo = str(input("Tipo da cobaia: "))
+# for i in range(n):
+#     quantidade = int(input("Qauntidade de cobaias: "))
+#     tipo = str(input("Tipo da cobaia: "))
     
-    if tipo == "c":
-        c = quantidade + c
-    elif tipo == "r":
-        r = quantidade + r
-    else:
-        s = quantidade + s
+#     if tipo == "c":
+#         c = quantidade + c
+#     elif tipo == "r":
+#         r = quantidade + r
+#     else:
+#         s = quantidade + s
 
         
-    total = c + r + s
+#     total = c + r + s
 
 
-print("Relatorio final: ")
-print(f"total = {total}")
-print(f"total de coelhos = {c}")
-print(f"total de ratos = {r}")
-print(f"total de sapos = {s}")
-print(f"Percentual de coelhos = {(c/total)*100:.2f} ")
-print(f"Percentual de ratos = {(r/total) * 100:.2f}")
-print(f"Percentual de sapos = {(s/total)*100:.2f}")
+# print("Relatorio final: ")
+# print(f"total = {total}")
+# print(f"total de coelhos = {c}")
+# print(f"total de ratos = {r}")
+# print(f"total de sapos = {s}")
+# print(f"Percentual de coelhos = {(c/total)*100:.2f} ")
+# print(f"Percentual de ratos = {(r/total) * 100:.2f}")
+# print(f"Percentual de sapos = {(s/total)*100:.2f}")
        
 
 
